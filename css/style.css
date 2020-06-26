@@ -1,0 +1,83 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .bg {
+    /* The image used */
+    background-image: url("../pix/s.jpg");
+  
+    /* Full height */
+    height: auto;
+    width: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+  }
+
+  .text {
+      
+      width: 300px;
+      height: 200px;
+      margin-top: 100px;
+      color: white;
+     
+  }
+
+ .cal{
+   margin-top: 5px;
+  margin-bottom: 100px;
+  }
+
+  
+  .calculator {
+  width: 350px;
+  height: 450px; 
+  }
+  #display {
+  width: 320px;
+  height: 40px;
+  text-align: right;
+  background: transparent;
+  border: 2px solid:black;
+  font-size: 18px;
+  left: 2px;
+  top: 2px;
+  color: #7fff00;
+  }
+  .btnTop{
+  color: white;
+  background-color: #ff9933;
+  font-size: 14px;
+  margin: auto;
+  width: 50px;
+  height: 25px;
+  }
+  .btnNum {
+  color: white;
+  background-color: black;
+  font-size: 14px;
+  margin: auto;
+  width: 50px;
+  height: 25px;
+  }
+  .btnMath {
+  color: white;
+  background-color: #ff4561;
+  font-size: 14px;
+  margin: auto;
+  width: 50px;
+  height: 25px;
+  }
+  .btnOpps {
+  color: white;
+  background-color: #ff9933;
+  font-size: 14px;
+  margin: auto;
+  width: 50px;
+  height: 25px;
+  }
+  
